@@ -1,0 +1,22 @@
+p {
+  color: red;
+  text-align: center;
+}
+
+#test-id-1 {
+  color: purple;
+}
+
+.test-class {
+  text-shadow: 2px 1px red;
+}
+
+a:hover {
+  color:gray;
+}
+
+h1 {
+  font-family: helvetica;
+  font-size: 50px;
+  color: gray;
+}
