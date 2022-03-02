@@ -1,11 +1,11 @@
-a:hover {
-  color: rgb(119,175,191);
-  font-weight: bold;
-}
 
-a {
-  color: rgb(172,206,216);
+
+h1 {
   font-family: helvetica;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(84,84,87);
+  padding-top: 0;
 }
 
 a:active {
@@ -13,12 +13,22 @@ a:active {
   color: rgb(175,175,175);
 }
 
-h1 {
+li a {
   font-family: helvetica;
-  font-size: 36px;
-  font-weight: bold;
   color: rgb(84,84,87);
-  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  float: right;
+}
+
+li a:hover {
+  color: rgb(175,175,175);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 h3 {
@@ -28,9 +38,11 @@ h3 {
 }
 
 p {
-  font-size: 12px;
+  font-size: 16px;
   color: rgb(84,84,87);
   font-family: helvetica;
+  margin: 5px;
+  padding: 5px;
 }
 
 hr {
@@ -47,4 +59,27 @@ hr {
 
 button:hover {
   background: rgb(172,206,216);
+}
+
+.container {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+
+}
+
+img {
+ max-width: 100%;
+}
+
+.image {
+  flex-basis: 70%;
+}
+
+.text {
+  padding-left: 20px;
 }
