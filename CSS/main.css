@@ -1,0 +1,24 @@
+button {
+  transition: all 1000ms ease-in-out;
+  font-size: 40px;
+  color: rgb(84,84,87);
+  background-color: yellow;
+}
+
+.was-clicked {
+  background-color: rgb(84,84,87);
+  color: yellow;
+  padding: 20px;
+
+}
+
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(84,84,87);
+}
+
+.was-hovered {
+  color: rgb(172,206,216);
+}
