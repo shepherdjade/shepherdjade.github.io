@@ -1,5 +1,5 @@
 a {
-  font-family: helvetica;
+  font-family: georgia;
   color: rgb(172,206,216);
   text-decoration: none;
 }
@@ -14,7 +14,7 @@ a:active {
 
 
 li a:hover {
-  color: rgb(175,175,175);
+  color: rgb(255,224,116);
 }
 
 ul {
@@ -45,7 +45,7 @@ h4 {
 }
 
 label {
-  font-family: helvetica;
+  font-family: georgia;
   font-size: 14px;
   color: rgb(84,84,87);
 }
@@ -53,7 +53,7 @@ label {
 p {
   font-size: 16px;
   color: rgb(84,84,87);
-  font-family: helvetica;
+  font-family: georgia;
   margin: 5px;
   padding: 5px;
 }
@@ -168,7 +168,7 @@ li a {
 }
 
 .project {
-  font-family: helvetica;
+  font-family: georgia;
   color: rgb(172,206,216);
   padding: 20px;
   text-decoration: none;
@@ -195,6 +195,32 @@ li a {
   margin: 20px;
 }
 
+.projectpre {
+  grid-column: 1 / 4;
+  grid-row: 4;
+  margin: 20px;
+}
+
+.one {
+  grid-column: 1;
+  grid-row: 5;
+  flex-basis: 70%
+}
+
+.two{
+  grid-column: 2;
+  grid-row: 5;
+  margin-top:  50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.three {
+  grid-column: 3;
+  grid-row: 5;
+  margin-top: 100px;
+  margin-left: 100px;
+}
 }
 
 @media screen and (max-width: 450px){
